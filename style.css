@@ -1,0 +1,211 @@
+* {
+     box-sizing: border-box;
+}
+h1, h2, h3, p, a{
+    color: #003272;
+}
+
+h1, h2, h3{
+    font-family: 'Din Alternate', monospace;
+    
+}
+
+h1{
+    font-size: 70px;
+    padding: 0;
+    margin-bottom: 0%;
+    letter-spacing: 12px;
+}
+
+h2{
+    font-size: 40px;
+    margin: 0px 0px;
+    letter-spacing: 17px;
+}
+
+h3{
+    font-size: 30px;
+    margin: 0px 0px;
+    letter-spacing: 9px;
+}
+
+p{
+    font-family: 'Din Condensed', monospace;
+    font-size: 20px;
+    padding: 2px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+
+.prvi{
+    
+    resize: both;
+    overflow: auto;
+}
+
+.glavni{
+    height: auto;
+}
+
+.col1 {
+	float: left;
+	width: 50%;
+	padding: 2px;
+	height: auto;
+    text-align: center;
+}
+
+.notranji{
+    text-align: left;
+    padding-top: 60px;
+}
+
+.povprasevanje{
+    background-color: #003272;
+    height: auto;
+}
+
+.drugi{
+    background-color: #003272;
+    text-align: center;
+    
+}
+
+.button{
+    background-color: #ebcc9b;
+    color: #003272;
+    height: 50px;
+    width: 200px;
+    font-family: 'Din Alternate', monospace;
+    font-size: 18px;
+}
+
+.button:hover{
+    background-color: #ebcc9b;
+    color: #003272;
+    height: 55px;
+    width: 250px;
+    font-family: 'Din Alternate', monospace;
+    font-size: 22px;
+}
+
+.col2 {
+	float: left;
+    min-width: 100px;
+	width: 25%;
+	padding: 30px;
+	height: 100%;
+    text-align: center;
+    
+}
+
+#ikone {
+    border-radius: 50%;
+    max-width: 60%;
+    height: auto;
+}
+
+.col3 {
+	float: left;
+	width: 33.3%;
+	padding: 2px;
+	height: 100%;
+    text-align: center;
+    
+}
+
+.tretji{
+    resize: both;
+    overflow: auto;
+    background-image: url(ozadje.png)
+}
+
+.izdelki{
+    text-align: center;
+    height: 450px;
+}
+
+#slike {
+    max-height: 250px;
+    width: auto;
+    border: 2px solid #003272 ;
+    transition: transform .7s ease-in-out;
+}
+
+#slike:hover {
+  transform: rotate(360deg);
+}
+
+.cetrti{
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+.footer{
+    text-align: center;
+}
+
+ul, li {
+    
+    list-style-type: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#kontakt{
+    height: 55px;
+}
+
+/* Responsive Styles */
+
+/* Tablets and larger */
+@media screen and (min-width: 500px) {
+    
+    .col1 {
+        width: 100%;
+    }
+
+    .col2 {
+        width: 100%;
+    }
+
+    .col3 {
+        width: 100%;
+    }
+}
+
+/* Desktops and larger */
+@media screen and (min-width: 750px) {
+    
+    .col1 {
+        width: 100%;
+    }
+
+    .col2 {
+        width: 50%;
+    }
+
+    .col3 {
+        width: 100%;
+    }
+}
+
+/* Larger Screens */
+@media screen and (min-width: 1000px) {
+    
+    .col1 {
+        width: 50%;
+    }
+
+    .col2 {
+        width: 25%;
+    }
+
+    .col3 {
+        width: 33.3%;
+    }
+}
